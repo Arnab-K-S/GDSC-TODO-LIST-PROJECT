@@ -1,0 +1,28 @@
+.container button{
+    position: relative;
+    left: 21.7rem;
+    bottom: 2.5rem;
+    outline: none;
+    border: none;
+    padding: 1%;
+    background-color: rgb(255, 90, 90);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0.2rem;
+    
+}
+
+.container button:hover{
+    background-image: linear-gradient(orange,red);
+    box-shadow: 0.2rem 0.2rem 0.5rem;
+}
+
+.red{
+    background-image: linear-gradient(rgb(255, 53, 53), rgb(255, 164, 17));
+}
+.normal{
+    background-image: linear-gradient(rgb(130, 130, 255), rgb(176, 111, 255));
+}
+.normal:hover {
+    background-image: linear-gradient(rgb(86, 86, 255), rgb(137, 41, 255));
+}
